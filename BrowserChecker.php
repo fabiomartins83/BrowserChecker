@@ -1,5 +1,10 @@
-<!DOCTYPE html>
+<!-- 
+	*** Modelo de projeto PHP para desenvolvimento de página da web
+	*** Desenvolvido por Fábio de Almeida Martins
+-->
 <html lang="pt-br" dir="ltr">
+
+<head>
 
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 	<meta name="description" content="Detector de navegadores" />
@@ -14,17 +19,16 @@
 
 	<link rel="canonical" href="./BrowserCheckerPhp.php" />
 <!--	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /> -->
-	<link rel="stylesheet" type="text/css" href="./estilos.css" media="screen" />
-
+	<link rel="stylesheet" type="text/css" href="estilos.css" media="screen" />
+	
 	<title>Detector de navegador - Fábio Martins</title>
 
-</head>
+</head>]
+
 <body>
 
 	<a id="topo"><h1 class="titulo">Browser Detector</h1></a>
 	<br>
-
-	<div class="corpodetexto">
 
 	<?php
 		?>
@@ -89,11 +93,8 @@
 		
 		echo "Seu sistema é: {$_SERVER['HTTP_USER_AGENT']}.";
 	?>
-
-	</div>
 	
 	<br><br><br>
-
 	<footer class="rodape"><br>Desenvolvido por <strong>Fábio de Almeida Martins</strong>. <br>© 2020  -  Fábio de Almeida Martins</footer>
 
 </body>
